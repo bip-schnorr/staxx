@@ -82,7 +82,7 @@ TODO: Update deployment success logs
 
 ```
 
-Your testchain is now up and running! You are now able to start using services, such as interacting with the [testchain dashboard](https://github.com/makerdao/testchain-dashboard).
+Your testchain is now up and running! You are now able to start using services, such as interacting with the [testchain dashboard](https://github.com/amra-finance/testchain-dashboard).
 
 
 ## Full List of Testchain Commands (Docker Compose):
@@ -119,11 +119,11 @@ In short, the stack manager service is essentially a plugin interface for your t
 For example, the Testchain Vulcanize DB stack manager service will handle list of events from testchain.
 
 For now we support only `vdb` stack available
-[Github VDB repo](https://github.com/makerdao/testchain-stack-vdb)
+[Github VDB repo](https://github.com/amra-finance/testchain-stack-vdb)
 
 **Example:** Testchain Vulcanize DB Stack Manager Service
 
-**Note:** If you are using `docker-compose` for starting QA Dashboard from https://github.com/makerdao/staxx, you will have to put the 3 above files from stack_config into the `/tmp/stacks/vdb` folder on your local machine before starting the local environment.The following three files will be:
+**Note:** If you are using `docker-compose` for starting QA Dashboard from https://github.com/amra-finance/staxx, you will have to put the 3 above files from stack_config into the `/tmp/stacks/vdb` folder on your local machine before starting the local environment.The following three files will be:
 
 1. Docker-compose.yml
 2. Icon.png
